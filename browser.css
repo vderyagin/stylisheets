@@ -1,0 +1,20 @@
+.tabbrowser-tab {
+  -moz-appearance: tab !important;
+  height:          16px !important;
+  padding-right:   4px !important;
+  padding-top:     0px !important;
+  margin-right:    0px !important;
+  margin-left:     0px !important;
+}
+
+.tab-icon-image, .tab-throbber {
+  margin-left: 3px !important;
+}
+
+.tabbrowser-tab[faviconized] .tab-icon-image, .tabbrowser-tab[faviconized] .tab-throbber {
+  margin-left: 8px !important;
+}
+
+#navigator-toolbox {
+  border: none !important;
+}
